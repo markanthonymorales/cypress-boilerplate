@@ -14,13 +14,13 @@ Feature: Login page
         Then The alert message "Invalid credentials." is displayed
     
     Scenario: Success Login
-        When A user enter the "#user-email" "dev@itfaq.global"
+        When A user enter the "#user-email" "test-account@gmail.com"
         And A user enter the "#user-password" "password"
         And Click on the submit button
         Then The url will contains the "admin" subdirectory
 
     Scenario: Incorrect Login
-        When A user enter the "#user-email" "dev2@itfaq.global"
+        When A user enter the "#user-email" "test-account@gmail.com"
         And A user enter the "#user-password" "password"
         And Click on the submit button
         Then The alert message "Invalid credentials." is displayed
