@@ -28,6 +28,7 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     baseUrl: "https://dev-auchan.constelio.io/",
     chromeWebSecurity: false,
+    edgeWebSecurity: false,
     env: {
       allureReuseAfterSpec: true,
     },

@@ -1,5 +1,7 @@
 {
   "email": "dev@itfaq.global",
   "password": "password",
-  "totalTests": 5
+  "totalTests": 5,
+  "minimumTimeout": 1000,
+  "maximumTimeout": 5000
 }
