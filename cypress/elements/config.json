@@ -1,0 +1,8 @@
+{
+    "email": "#user-email",
+    "password": "#user-password",
+    "loginBtn": "#login-submit-button",
+    "alert": "div[role='alert']",
+    "submitBtn": "button[type='submit']",
+    "cancelBtn": "button[type='cancel']"
+}
