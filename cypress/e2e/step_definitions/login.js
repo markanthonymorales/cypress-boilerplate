@@ -3,7 +3,7 @@ import {loginPage} from '@pages/LoginPage';
 import data from '../../fixtures/data.json';
 const { faker } = require('@faker-js/faker');
 
-Given("A web browser is at the GED login page", () => {
+Given("A web browser is at the login page", () => {
     cy.visit("/").wait(1000).then(() => cy.screenshot());
 });
 

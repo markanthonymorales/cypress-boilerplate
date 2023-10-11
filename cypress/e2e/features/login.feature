@@ -3,7 +3,7 @@ Feature: Login page
     Feature Login page will work depending on the user credentials.
 
     Background:
-        Given A web browser is at the GED login page
+        Given A web browser is at the login page
 
     Scenario: Success Login with fixture data
         When A user enters the username, password, and clicks on the login button

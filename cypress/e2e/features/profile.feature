@@ -3,7 +3,7 @@ Feature: Profile page
     Continuous Scenarios
 
     Background:
-        Given A web browser is at the GED login page
+        Given A web browser is at the login page
     
     Scenario: Success Update Profile
 
