@@ -26,7 +26,7 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/features/*.feature",
     screenshotsFolder: "cypress/snapshots/actual",
     trashAssetsBeforeRuns: true,
-    baseUrl: "https://dev-auchan.constelio.io/",
+    baseUrl: "https://google.com/", // add your site here
     chromeWebSecurity: false,
     edgeWebSecurity: false,
     env: {
