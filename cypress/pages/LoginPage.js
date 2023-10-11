@@ -9,15 +9,15 @@ class LoginPage {
   };
 
   typeUsername(username) {
-    return this.elements.usernameInput().clear({ force: true }).type(username).wait(config.minimumTimeout);
+    return this.elements.usernameInput().clear({ force: true }).type(username).wait(1000);
   }
 
   typePassword(password) {
-    return this.elements.passwordInput().clear({ force: true }).type(password).wait(config.minimumTimeout);
+    return this.elements.passwordInput().clear({ force: true }).type(password).wait(1000);
   }
 
   clickLogin() {
-    return this.elements.loginBtn().click({ force: true }).wait(config.maximumTimeout).then(()=>{
+    return this.elements.loginBtn().click({ force: true }).wait(5000).then(()=>{
       cy.screenshot();
     });
   }
