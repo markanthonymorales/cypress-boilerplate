@@ -9,21 +9,21 @@ Feature: Profile page
 
     ################################ steps 1 ################################
         When A user enters the username, password, and clicks on the login button
-        Then the url will contains the "admin" subdirectory
+        Then The url will contains the "admin" subdirectory
 
     ################################ steps 2 ################################
         Given A web browser is at the profile settings page
-        When a user enter the 'input[type="tel"]' '23461212431'
-        And click on the submit button
-        Then the alert message "Account updated successfully" is displayed
+        When A user enter the 'input[type="tel"]' '23461212431'
+        And Click on the submit button
+        Then The alert message "Account updated successfully" is displayed
 
     ################################ steps 3 ################################
         Given A web browser is at the profile settings page
-        And click on the button with have a text "Password"
+        And Click on the button with have a text "Password"
     
     ################################ steps 4 ################################
         Given A web browser is at the profile settings page
-        And click on the button with have a text "Logout"
+        And Click on the button with have a text "Logout"
         Then I see this sentence "Are you sure to log out?" in the page
-        And click on the "#modal-unsaved-confirm-btn" button
-        Then the url will not contains the "admin" subdirectory
+        And Click on the "#modal-unsaved-confirm-btn" button
+        Then The url will not contains the "admin" subdirectory
